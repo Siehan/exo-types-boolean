@@ -44,10 +44,11 @@ console.log(`res9 = ${res9}`);
 
 let res10 =
   (res1 && res2) || (res3 && res4) || (res5 && res6) || (res7 && res8 && res9);
-/*(false && false) = false || (true && true) = true || (false && true) = false || (false && true && true) = false
+/*(false && false) = false || (true && true) = true || (false && true) = false || (false && true && false) = false
 Réponse finale = true
 */
 console.log(`res10 = ${res10}`);
+//true
 
 /*
 Vous devrez afficher les résultats sur la console avec un console.log, par exemple :
